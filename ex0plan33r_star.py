@@ -37,7 +37,7 @@ from sklearn.metrics import accuracy_score
 plt.rcParams['figure.figsize'] = [12, 6]
 sns.set_theme(style="darkgrid")
 
-df = pd.read_csv('/content/6 class csv.csv')
+df = pd.read_csv('6 class csv.csv')
 df.head()
 
 df['Spectral Class'].value_counts()
